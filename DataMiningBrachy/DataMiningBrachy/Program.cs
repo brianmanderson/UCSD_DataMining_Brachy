@@ -121,10 +121,6 @@ namespace DataMiningBrachy
             List<PatientClass> filteredPatients = new List<PatientClass>();
             foreach (PatientClass patient in patients)
             {
-                if (patient.MRN == "32570512")
-                {
-                    int debugVar = 1;
-                }
                 if (patient.Courses.Count == 0)
                 {
                     continue;
