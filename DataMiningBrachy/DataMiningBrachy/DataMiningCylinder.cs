@@ -18,6 +18,10 @@ namespace DataMiningBrachy
         public string Notes { get; set; }
         public double DosePerFraction { get; set; }
         public int NumberOfFractions { get; set; }
+        public override string ToString()
+        {
+            return $"{PatientID} with {PlanName}";
+        }
     }
     class DataMiningCylinder
     {
