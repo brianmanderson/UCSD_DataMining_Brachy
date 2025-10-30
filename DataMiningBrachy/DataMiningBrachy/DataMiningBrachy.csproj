@@ -17,6 +17,7 @@
     <ProjectReference Include="..\..\..\Make_Raystation_Data_StructureCSharp\DataBaseStructure\DataBaseStructure.csproj" />
     <ProjectReference Include="..\..\..\Make_Raystation_Data_StructureCSharp\DataWritingTools\DataWritingTools.csproj" />
     <ProjectReference Include="..\..\..\Make_Raystation_Data_StructureCSharp\PatientFileManagerCSharp\DataBaseFileManager.csproj" />
+    <ProjectReference Include="..\..\..\UCSD_DataMiningHighMod\FindingHighModulationPatients\FindingHighModulationPatients.csproj" />
   </ItemGroup>
 
 </Project>
