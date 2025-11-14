@@ -2,6 +2,7 @@
 using FindingHighModulationPatients;
 using FindingHAPatients;
 using SendEmailCSharp;
+using DataMiningCervix;
 namespace DataMining
 {
     class Program
@@ -17,6 +18,7 @@ namespace DataMining
         }
         static void Main(string[] args)
         {
+            DataMiningCervixClass.MainRun();
             //string[] k = { "BrianAnderson@health.ucsd.edu" };
             //SendEmailClass.SendEmail("rmanger@health.ucsd.edu", k, "Great email!", "I love it, great job");
             //DataMiningImaging.MainImaging();
