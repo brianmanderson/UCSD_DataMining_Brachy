@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindingHAPatients", "..\..\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUIApplication", "..\..\DataMiningGUI\GUIApplication\GUIApplication.csproj", "{C0B8D875-1C2B-4171-9236-0B6CB77DAF77}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendEmailCSharp", "..\..\SendEmailCSharp\SendEmailCSharp.csproj", "{8BB6D5C3-FDFF-4D21-8C6E-994E7E3BA2B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{C0B8D875-1C2B-4171-9236-0B6CB77DAF77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0B8D875-1C2B-4171-9236-0B6CB77DAF77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0B8D875-1C2B-4171-9236-0B6CB77DAF77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BB6D5C3-FDFF-4D21-8C6E-994E7E3BA2B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BB6D5C3-FDFF-4D21-8C6E-994E7E3BA2B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BB6D5C3-FDFF-4D21-8C6E-994E7E3BA2B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BB6D5C3-FDFF-4D21-8C6E-994E7E3BA2B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

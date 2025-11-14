@@ -3,7 +3,7 @@ using DataBaseStructure.AriaBase;
 using DataWritingTools;
 using DataBaseFileManager;
 
-namespace DataMiningBrachy
+namespace DataMining
 {
     public class OutPatient
     {

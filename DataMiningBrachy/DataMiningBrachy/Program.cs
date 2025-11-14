@@ -2,7 +2,7 @@
 using FindingHighModulationPatients;
 using FindingHAPatients;
 using SendEmailCSharp;
-namespace DataMiningBrachy
+namespace DataMining
 {
     class Program
     {
@@ -13,7 +13,7 @@ namespace DataMiningBrachy
             string directoryPath = Path.GetDirectoryName(csv_path);
             if (string.IsNullOrEmpty(directoryPath))
                 directoryPath = ".";
-            PatientListToCSV(issuePatients, csv_path);
+            AriaQueryActivities.PatientListToCSV(patients, csv_path);
         }
         static void Main(string[] args)
         {

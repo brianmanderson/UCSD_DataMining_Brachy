@@ -4,7 +4,7 @@ using DataWritingTools;
 using System.Collections.Generic;
 using System.IO;
 
-namespace DataMiningBrachy
+namespace DataMining
 {
     public class OutPatientSkin
     {

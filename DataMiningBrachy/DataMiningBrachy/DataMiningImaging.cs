@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataMiningBrachy
+namespace DataMining
 {
     public class OutPatientImages
     {
